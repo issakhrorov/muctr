@@ -1,0 +1,75 @@
+.header__mainHeader {
+  margin: 10px 40px 0 40px;
+  display: block;
+}
+
+.mainHeader__container {
+  display: flex;
+  justify-content: space-between;
+
+}
+.mainHeader__left {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin-right: 15px;
+}
+
+.header__logo img {
+  width: 100px;
+}
+
+.header__name {
+  display: flex;
+  flex-direction: column;
+}
+
+.hn__name {
+  color: #1B68A6;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hn__location {
+  margin-bottom: 1rem;
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.hn__inter-name {
+  font-size: 11px;
+}
+
+.mainHeader__right {
+  width: 40%;
+  margin-left: 40px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+.mainHeader__right:not(:last-child) {
+  margin-right: 20px;
+  color: #1B68A6;
+  transition: 0.3s;
+}
+
+.mainHeader__right > a:hover {
+  color: #2a5385;
+  transition: 0.3s;
+
+}
+
+.burger {
+  padding: 0 10px;
+  color: #1B68A6;
+}
+
+.burgermenu {
+  font-size: 15px;
+  margin-left: 0;
+
+}

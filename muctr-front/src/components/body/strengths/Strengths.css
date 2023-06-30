@@ -1,0 +1,48 @@
+.strengths {
+  height: 100vh;
+  background-color: white;
+
+}
+
+.strengths__container {
+  margin: 0 40px;
+  padding: 15px 0;
+}
+
+.strengths__title {
+  padding: 50px 80px 35px 80px;
+  text-align: center;
+  font-size: 24px;
+  color: #1F497E;
+  font-weight: 700;
+}
+
+.strengths__boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strengths__box {
+  margin: 0 15px;
+  text-align: center;
+}
+
+.st__img {
+  width: 50px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.st__name {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1F497E;
+}
+
+.st__desc {
+  font-size: 13px;
+  font-weight: 300;
+  color: #1F497E;
+
+}

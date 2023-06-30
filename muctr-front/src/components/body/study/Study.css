@@ -1,0 +1,80 @@
+.study {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.studyTitle {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 80px;
+  text-align: center;
+  font-size: 24px;
+  color: #1F497E;
+  font-weight: 700;
+}
+
+.videoDiv {
+  background: linear-gradient(to left,#157FC3, #1F497E);
+  height: 60%;
+}
+
+.videoDiv__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 40px;
+  height: calc(100% - 60px);
+  width: inherit;
+}
+
+.videoDesc {
+  width: 50%;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  height: 100%;
+}
+
+.videoDesc > h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.videoDesc > p {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.videoDesc__button > a {
+  color: #1F497E;
+  padding: 10px 25px 10px 15px;
+  background-color: white;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative;
+}
+
+.videoDesc__icon {
+  position: absolute;
+  left: 160px;
+}
+
+.videoPlayer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 100%;
+  width: calc(50% - 50px);
+}
+
+.videoPlayer iframe {
+  float: right;
+}
